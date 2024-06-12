@@ -1,7 +1,57 @@
 
-#ul-list{
 
-    display: inline-flex;
-    gap: 0rem
-    padd
+#logo{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25pt;
+    font-weight: bolder;
+    color: black
 }
+
+#navs{
+    display: flex;
+    font-size: 20px;  
+}
+#ul-list{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    font-size: 10pt;
+    
+}
+.nav-links{
+    text-decoration: none;
+    font-size: l5pt;
+    font-weight: bolder;
+    gap: 3opx;
+}
+
+
+#backgroundimage{
+    background-image: url(../an-instructor-with-the-ghana-armed-forces-demonstrates-jungle-and-movement-signals-to-us-army-soldiers-during-the-first-day-of-jungle-warfare-school-at-the-achiase-militar.jpg);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+             
+}
+#backgroundimage{
+    height: 100vh;
+}
+.ctn{
+    display: flex;
+
+
+}
+.ctn img{
+    width: 80px;
+}
+#backgroundimage-text{
+    color: beige;
+    padding-top: 10rem;
+    margin-left: 15rem;
+    font-size: xx-large;
+}
+    
